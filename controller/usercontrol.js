@@ -52,7 +52,7 @@ const forgotPassword = async (req, res) => {
     var mailOptions = {
         from: 'vimalkarthik315@gmail.com',
         to: email,
-        subject: "Markdown Application Reset Password",
+        subject: "Dairy Days Application Reset Password",
         html:`<h1>Click the Link to Reset Password</h1><h2>This Link expires in 2 hours</h2><h2>Click on the link to reset your password</h2><h3>${resetUrl}</h3>`
     };
 
